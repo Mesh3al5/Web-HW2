@@ -1,0 +1,29 @@
+body{
+    background-image: url("./assets/img/background.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.card{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+  align-items: center;
+margin-top: 260px;
+}
+
+
+.button:hover{
+    background-color: #bc6c25;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+    border-radius: 10px;
+    transition: all 1s;
+   
+    }
+
+    button{
+        border-radius: 5px;
+        border-style: solid;
+    }
